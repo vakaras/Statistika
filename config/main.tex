@@ -1,0 +1,16 @@
+\documentclass[12pt, a4paper, xcolor=table]{documentation}
+
+\usepackage{style}
+
+\begin{document}
+  \input{./config/global.tex}
+  \input{./common/title.tex}
+  {
+    \singlespacing
+    \tableofcontents
+  }
+  
+  \pagestyle{plain}
+  \input{./config/annotation.tex}
+  \input{./part1/chapters.tex}
+\end{document}
