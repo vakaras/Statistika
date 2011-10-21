@@ -1,0 +1,27 @@
+\chapter{Pavyzdžiai}
+
+\section{Sintaksės paryškinimas}
+
+Python fragmentas:
+\begin{minted}{python}
+def boring(args=None):
+  pass
+\end{minted}
+
+Taip pat vienos eilutės fragmentas: \mint{python}|import this|.
+
+Scala fragmentas:
+\begin{minted}{scala}
+object TimerAnonymous {
+  def oncePerSecond(callback: () => Unit) {
+    while (true) {
+      callback()
+      Thread sleep 1000
+      }
+    }
+  def main(args: Array[String]) {
+    oncePerSecond(
+      () => println("Time flies like an arrow…"))
+    }
+  }
+\end{minted}
