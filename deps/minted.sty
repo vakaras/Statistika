@@ -163,7 +163,7 @@
 \newcommand\minted@usedefaultstyle{\usemintedstyle{default}}
 \newcommand\usemintedstyle[1]{
   \renewcommand\minted@usedefaultstyle{}
-  \immediate\write18{pygmentize -S #1 -f latex > \jobname.pyg}
+  \immediate\write18{pygmentize -S #1 -f latex > dist/\jobname.pyg}
   \input{\jobname.pyg}}
 \newcommand\mint[3][]{
   \DefineShortVerb{#3}
@@ -173,7 +173,7 @@
     \UndefineShortVerb{#3}
     \minted@savecode{\FV@SV@minted@verb}
     \minted@pygmentize{#2}
-    \DeleteFile{\jobname.pyg}}]{minted@verb}#3}
+    \DeleteFile{dist/\jobname.pyg}}]{minted@verb}#3}
 \newcommand\minted@proglang[1]{}
 \newenvironment{minted}[2][]
  {\VerbatimEnvironment
