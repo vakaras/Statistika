@@ -148,10 +148,10 @@
     \minted@opt{gobble} \minted@opt{texcl} \minted@opt{mathescape}
     \minted@opt{startinline} \minted@opt{funcnamehighlighting}
     \minted@opt{linenos} -P "verboptions=\minted@opt{extra}"
-    -o \jobname.out.pyg #1}
+    -o dist/\jobname.out.pyg dist/#1}
   \immediate\write18{\minted@cmd}
   % For debugging, uncomment:
-  %\immediate\typeout{\minted@cmd}
+  \immediate\typeout{\minted@cmd}
   \ifthenelse{\equal{\minted@opt@bgcolor}{}}
    {}
    {\begin{minted@colorbg}{\minted@opt@bgcolor}}
@@ -183,7 +183,7 @@
   \begin{VerbatimOut}[codes={\catcode`\^^I=12}]{\jobname.pyg}}%
  {\end{VerbatimOut}
   \minted@pygmentize{\minted@proglang{}}
-  \DeleteFile{\jobname.pyg}}
+  \DeleteFile{dist/\jobname.pyg}}
 \newcommand\inputminted[3][]{
   \minted@resetoptions
   \setkeys{minted@opt}{#1}

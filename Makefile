@@ -1,7 +1,7 @@
 PARTS    := ./part1
 # Iš trijų dalių atrodytų taip.
 # PARTS    := ./part1:./part2:./part3
-TEXINPUTS := .:./config:./common:${PARTS}:
+TEXINPUTS := .:./config:./common:./deps:${PARTS}:
 export TEXINPUTS
 
 all: config/main.pdf
