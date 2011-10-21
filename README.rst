@@ -33,3 +33,13 @@ Naujo projekto sukūrimas
     Čia ``${REPOSITORY}`` yra pagrindinės projekto saugyklos adresas.
 
 #.  Pritaikome ``config`` esančius failus pagal savo poreikius.
+#.  Susikuriame naują ``README.md`` failą::
+
+    touch README.md
+
+Šablono atnaujinimas
+====================
+
+::
+
+    git pull template master
