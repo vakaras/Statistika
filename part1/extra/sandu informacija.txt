@@ -1,0 +1,8 @@
+Interneto technologijos - Donatas Čiukšys - 3 kreditai - Viso: 64 val (32+32)
+Matematinė logika - doc. dr. Stanislovas Leonas Norgėla - 3 kreditai - viso: 48 val (32+16)
+Operacinės sistemas - Doc. dr. Antanas Mitašiūnas - 3 kreditai - viso: 64 val (32+32)
+Programų sistemų inžinerija II - prof. hab. dr. (HP) Albertas Čaplinskas - 3 kreditai - viso: 64 val (32+32)
+Psichologijos įvadas - XXX - 2 kreditai - viso: 32 val (32+0)
+Tikimybių teorija ir matematinė statistika - Doc. dr. Vilius Stakėnas - 3 kreditai - viso: 64 val (32+32)
+Vokiečių kalba - XXX - 2 kreditai - viso: 64 val (64+0)
+Algoritmavimo seminarai - Doc. Tumasonis - 3 kreditai - viso: 32 val (0+32)
