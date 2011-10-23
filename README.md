@@ -8,10 +8,13 @@ studentai Vytautas Astrauskas ir Egidijus Lukauskas.
 
 TODO:
 
++   Palyginti Vokiečių kalbos trukmės skirstinį su normaliuoju.
+
+DONE: 
+
 +   Aprašyti Stačiakampių išskirčių atsiradimo priežastis.
 +   Sutvarkyti paveikslėlių ir skyrelių išvaizdą.
 +   Aprašyti mėnesius? Pastebėti, kad labiausiai buvo ruoštasi 
     prieš atsiskaitymus. Taip pat, kad kuo dažnesi atsiskaitymai
     tuo tolygesnis mokymasis. (didelė dispersija)
-+   Palyginti Vokiečių kalbos trukmės skirstinį su normaliuoju.
 +   Parašyti išvadas.
